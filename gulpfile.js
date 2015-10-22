@@ -42,7 +42,7 @@ gulp.task('Clean', function(cb) {
 gulp.task("Test", function(){
   gulp.src('')
     .pipe(notify({ message: "Tarea[Test] - Completada!"}))
-    .pipe(open({ uri: 'https://alu0100536652.github.io/STW03/test/'}))
+    .pipe(open({ uri: 'https://alu0100536652.github.io/STW04/test/'}))
 });
 
 gulp.task('default', ['Clean', 'Minify', 'Imagemin', 'Test'], function() {
